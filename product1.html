@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product 1</title>
+    <link rel="stylesheet" href="product1.css">
+</head>
+<body>
+     <header>
+        <h1>MotorPoint</h1>
+
+        <div class="search-bar">
+            <input type="text" id="search-input" placeholder="Search products...">
+            <button onclick="searchProducts()">Search</button>
+        </div>
+
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="cart.html">Cart <span id="cart-count"></span></a></li>
+                <li><a href="">About</a></li>
+                <li><a href="">Contact</a></li>
+            </ul>
+        </nav>
+        
+    </header>
+
+        <div class="bg"><img src="images/audi rs7.avif" alt=""></div>
+
+
+    <main class="product-1">
+        <section id="product-details">
+           <div class="product-main">
+                <h1>2025 Audi Rs7 Performance</h1>
+                <p>$140,000</p>
+                <button onclick="addToCart('Product 1', 140000)">Add to Cart</button>
+           </div>
+        </section>
+
+        <section class="Performance">
+            <div class="Performance-main">
+                <div class="first">
+                    <p>Horsepower</p>
+                    <h1>621 HP</h1>
+                </div>
+                <div class="second">
+                    <p>Torque</p>
+                    <h1>627 Id-ft</h1>
+                </div>
+                <div class="third">
+                    <p>0-100 km </p>
+                    <h1>3.3 sec</h1>
+                    <div class="laws">
+                        <p>Always obey all speed and traffic laws.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Online Sale</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

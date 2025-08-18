@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Sale</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css">
+</head>
+<body>
+    <header>
+        <h1>MotorPoint</h1>
+
+        <div class="search-bar">
+            <input type="text" id="search-input" placeholder="Search products...">
+            <button onclick="searchProducts()">Search</button>
+        </div>
+
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="cart.html">Cart <span id="cart-count"></span></a></li>
+                <li><a href="">About</a></li>
+                <li><a href="">Contact</a></li>
+            </ul>
+        </nav>
+        
+    </header>
+
+    <div class="main-bg">
+        <div class="textt">
+            <h2>$130,000</h2>
+            <h1>Audi Rs6 Avant, ABT</h1>
+
+            <div class="car-info">
+                <p><img class="icon" src="icons/gas-station.png">petrol</p>
+                <p><img class="icon" src="icons/speedometer.png">10,000 km</p>
+                <p><img class="icon" src="icons/gear-shift (1).png">automatic</p>
+            </div>
+
+            <button>Learn More <img class="button-icon" src="icons/up-right-arrow.png"></button>
+        </div>
+        <div class="bg"><img src="images/test.avif" alt=""></div>
+    </div>
+
+    <div class="ragaca">
+        <h1>Explore All Vehicles</h1>
+    </div>
+
+    <main>
+        <section id="products" class="products">
+            <!-- Product 1 -->
+            <div class="product" data-name="Product 1" data-price="140,000">
+                <img class="img" src="images/audi rs7.avif" alt="Product 1">
+                <div class="top">
+                    <h3>Audi Rs7 2025</h3>
+                    <p>4.0-liter V8 engine Quattro</p>
+                </div>
+                <div class="middle">
+                    <div>
+                        <img src="icons/speedometer (1).png" alt="">
+                        <p>5000 km</p>
+                    </div>
+                    <div>
+                        <img src="icons/gas-station (1).png" alt="">
+                        <p>petrol</p>
+                    </div>
+                    <div>
+                        <img src="icons/gear-shift.png" alt="">
+                        <p>automatic</p>
+                    </div>
+                </div>
+                <div class="bottom">
+                    <p>$140,000</p>
+                    <a href="product1.html">View Details <img src="icons/arrow-up.png" alt=""></a>
+                </div>
+                <!-- <button onclick="addToCart('Product 1', 140000)">Add to Cart</button> -->
+                
+            </div>
+            <!-- Product 2 -->
+            <div class="product" data-name="Product 2" data-price="29.99">
+                <img class="img" src="images/test.avif" alt="Product 2">
+                <div class="top">
+                    <h3>Audi Rs6 2025</h3>
+                    <p> 4.0-liter twin-turbo V8 engine Quattro</p>
+                </div>
+                <div class="middle">
+                    <div>
+                        <img src="icons/speedometer (1).png" alt="">
+                        <p>7500 km</p>
+                    </div>
+                    <div>
+                        <img src="icons/gas-station (1).png" alt="">
+                        <p>petrol</p>
+                    </div>
+                    <div>
+                        <img src="icons/gear-shift.png" alt="">
+                        <p>automatic</p>
+                    </div>
+                </div>
+                <div class="bottom">
+                    <p>$130,000</p>
+                    <a href="product2.html">View Details <img src="icons/arrow-up.png" alt=""></a>
+                </div>
+                <!-- <button onclick="addToCart('Product 2', 29.99)">Add to Cart</button> -->
+            </div>
+            <!-- Product 3 -->
+            <div class="product" data-name="Product 3" data-price="39.99">
+                <img class="img" src="images/audirs5.png" alt="Product 3">
+                <h2>Product 3</h2>
+                <p>$39.99</p>
+                <button onclick="addToCart('Product 3', 39.99)">Add to Cart</button>
+                <a href="product3.html">View Details</a>
+            </div>
+            <!-- Product 4 -->
+            <div class="product" data-name="Product 4" data-price="49.99">
+                <img class="img" src="images/audi q8.png" alt="Product 4">
+                <h2>Product 4</h2>
+                <p>$49.99</p>
+                <button onclick="addToCart('Product 4', 49.99)">Add to Cart</button>
+                <a href="product4.html">View Details</a>
+            </div>
+            <!-- Product 5 -->
+            <div class="product" data-name="Product 5" data-price="59.99">
+                <img class="img" src="images/audi e tron.png" alt="Product 5">
+                <h2>Product 5</h2>
+                <p>$59.99</p>
+                <button onclick="addToCart('Product 5', 59.99)">Add to Cart</button>
+                <a href="product5.html">View Details</a>
+            </div>
+            
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Online Sale</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
