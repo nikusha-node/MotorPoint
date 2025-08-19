@@ -24,6 +24,16 @@ header {
     border-bottom: 1px solid rgba(100, 100, 100, 0.658);
 }
 
+.logo a {
+    text-decoration-line: none;
+    color: white;
+}
+
+.buttonn a {
+    text-decoration-line: none;
+    color: black;
+}
+
 .search-bar button{
     padding: 5px 10px;
     background: transparent;

@@ -4,31 +4,63 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Product 4</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="product4.css">
 </head>
 <body>
     <header>
-        <h1>Product 4</h1>
+         <h1 class="logo"><a href="index.html">MotorPoint</a></h1>
+
+        <div class="search-bar">
+            <input type="text" id="search-input" placeholder="Search products...">
+            <button onclick="searchProducts()">Search</button>
+        </div>
+
         <nav>
             <ul>
                 <li><a href="index.html">Home</a></li>
-                <li><a href="cart.html">Cart (<span id="cart-count">0</span>)</a></li>
+                <li><a href="cart.html">Cart <span id="cart-count"></span></a></li>
+                <li><a href="">About</a></li>
+                <li><a href="">Contact</a></li>
             </ul>
         </nav>
+        
     </header>
 
-    <main>
+        <div class="bg"><img src="images/audi q8.avif" alt=""></div>
+
+
+    <main class="product-1">
         <section id="product-details">
-            <img src="product4.jpg" alt="Product 4">
-            <h2>Product 4</h2>
-            <p>$49.99</p>
-            <p>This is a detailed description of Product 4.</p>
-            <button onclick="addToCart('Product 4', 49.99)">Add to Cart</button>
+           <div class="product-main">
+                <h1>2024 Audi Q8</h1>
+                <p>$85,000</p>
+                <button onclick="addToCart('Product 1', 130000)">Add to Cart</button>
+           </div>
+        </section>
+
+        <section class="Performance">
+            <div class="Performance-main">
+                <div class="first">
+                    <p>Horsepower</p>
+                    <h1>335 HP</h1>
+                </div>
+                <div class="second">
+                    <p>Torque</p>
+                    <h1>369 Id-ft</h1>
+                </div>
+                <div class="third">
+                    <p>0-100 km </p>
+                    <h1>5.5 sec</h1>
+                    <div class="laws">
+                        <p>Always obey all speed and traffic laws.</p>
+                    </div>
+                </div>
+            </div>
         </section>
     </main>
 
     <footer>
-        <p>&copy; 2025 Online Sale</p>
+        <p>&copy; 2025 MotorPoint</p>
     </footer>
 
     <script src="script.js"></script>
