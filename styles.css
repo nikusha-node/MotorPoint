@@ -18,8 +18,6 @@ header {
     display: flex;
     justify-content: space-between;
     padding: 20px 50px;
-    position: sticky;
-    top: 0;
     background: transparent;
     border-bottom: 1px solid rgba(100, 100, 100, 0.658);
 }
@@ -195,7 +193,7 @@ main {
     margin-top: 10px;
 }
 
-footer {
+/* footer {
     background-color: #333;
     color: #fff;
     text-align: center;
@@ -203,4 +201,163 @@ footer {
     position: fixed;
     width: 100%;
     bottom: 0;
+} */
+
+.topp {
+    display: flex;
+    justify-content: space-between;
+    padding: 100px 100px;
+}
+
+.rightt {
+    border: 1px solid rgba(0, 0, 0, 0.26);
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    width: 25%;
+    justify-content: space-between;
+    padding: 0 20px;
+}
+
+.rightt input {
+    outline: none;
+    border: none;
+}
+
+.rightt button {
+    border: none;
+    background-color: black;
+    color: white;
+    width: 90px;
+    height: 35px;
+    border-radius: 10px;
+}
+
+.line {
+    padding: 30px 100px;
+    color: rgba(0, 0, 0, 0.568);
+}
+
+.middlee {
+    display: flex;
+    padding: 30px 100px;
+    gap: 100px;
+    justify-content: center;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.418);
+}
+
+.company {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.company h2 {
+    font-size: 30px;
+}
+
+.company-main {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    font-size: 19px;
+}
+
+.company-main a {
+    text-decoration-line: none;
+    color: black;
+}
+
+.quick-links {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.quick-links h2 {
+    font-size: 30px;
+}
+
+.quick-links-main {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    font-size: 19px;
+}
+
+.quick-links-main a {
+    text-decoration-line: none;
+    color: black;
+}
+
+.our-brands {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.our-brands h2 {
+    font-size: 30px;
+}
+
+.our-brands-main {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    font-size: 19px;
+}
+
+.our-brands-main a {
+    text-decoration-line: none;
+    color: black;
+}
+
+.vehicles-type {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.vehicles-type h2 {
+    font-size: 30px;
+}
+
+.vehicles-type-main {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    font-size: 19px;
+}
+
+.vehicles-type-main a {
+    text-decoration-line: none;
+    color: black;
+}
+
+.sale-hours {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.sale-hours h2 {
+    font-size: 30px;
+}
+
+.sale-hours-main {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    font-size: 19px;
+}
+
+.iconn {
+    display: flex;
+    gap: 25px;   
+}
+
+.bottomm {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 100px;
 }
