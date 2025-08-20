@@ -125,7 +125,7 @@ nav ul li a {
 }
 
 .ragaca {
-    padding: 10px 50px;
+    padding: 90px 50px;
 }
 
 main {
@@ -178,7 +178,7 @@ main {
 
 .img {
     width: 298px;
-    height: auto;
+    height: 167px;
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;
 }
@@ -191,6 +191,37 @@ main {
     cursor: pointer;
     border-radius: 5px;
     margin-top: 10px;
+}
+
+.text-1 {
+    display: flex;
+    padding: 0 8%;
+    gap: 800px;
+    padding-bottom: 30px;
+}
+
+.text-1 h1 {
+    font-size: 33px;
+}
+
+.box-main {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    justify-content: center;
+    padding: 50px 50px;
+}
+
+.box1 {
+    border: 1px solid rgba(0, 0, 0, 0.048);
+    width: 210px;
+    height: 190px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 10px;
+    gap: 10px;
 }
 
 /* footer {

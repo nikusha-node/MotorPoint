@@ -48,11 +48,15 @@ const Product = mongoose.model('Product', productSchema);
 
 async function addProducts() {
     const products = [
-        { name: 'Product 1', price: 19.99 },
-        { name: 'Product 2', price: 29.99 },
-        { name: 'Product 3', price: 39.99 },
-        { name: 'Product 4', price: 49.99 },
-        { name: 'Product 5', price: 59.99 },
+        { name: 'audi rs7', price: 140000 },
+        { name: 'audi rs6', price: 130000 },
+        { name: 'audi rs5', price: 45000 },
+        { name: 'audi Q8', price: 85000 },
+        { name: 'audi rs5', price: 35000 },
+        { name: 'audi rs6', price: 65000},
+        { name: 'audi rs8', price: 160000},
+        { name: 'toyota 4runner', price: 35000},
+
     ];
     await Product.insertMany(products);
     console.log('Products added to the database');
